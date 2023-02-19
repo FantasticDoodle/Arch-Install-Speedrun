@@ -12,5 +12,8 @@ In this guide I will go over the basic guidlines and versions of the speedrun.
 And that's about it, as long as you conform to the %s that follow.
 
 ### 1.2 - Versions
+note: I don't fully know all of the official terms and most of these are either from mere speculation or a small amount of research; take my definitions with a grain of salt, but I believe these are some good guidlines.
+
 - #### any% - a version which lets you do anything, from preprogramming commands to echoing data onto files, and lets you choose when to start and stop the time.
-- #### boot% - 
+- #### boot% - a version which starts the time as soon as you boot the system, and ends as soon as you boot a base version; essentially, if it boots, it's good, which lets you install an extremely basic and minimal 
+- 
