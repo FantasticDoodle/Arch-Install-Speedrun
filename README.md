@@ -12,3 +12,5 @@ In this guide I will go over the basic guidlines and versions of the speedrun.
 And that's about it, as long as you conform to the %s that follow.
 
 ### 1.2 - Versions
+- #### any% - a version which lets you do anything, from preprogramming commands to echoing data onto files, and lets you choose when to start and stop the time.
+- #### boot% - 
