@@ -37,3 +37,9 @@ Base Arch install steps (for BIOS):
     ```
     cfdisk /dev/sda
     ```
+3) Use 'n' to create a partition, size it 512M (mb) and press enter
+4) Scroll to the free space and use 'n' to create a partition, sized the rest of the disk.
+5) Scroll up to the first partition, press 't' to change the type and select 'linux swap (82)'
+6) Use the arrow keys to navigate to the 'write' option, type 'yes' and hit enter, saving your changes and partitioning the disk.
+7) Format the parittions: use `mkfs.ext4 /dev/your_root_partition` for the root partition
+8) Format the partitoins: use `mkswap /dev/your_swap_partition`
