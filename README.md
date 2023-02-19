@@ -32,25 +32,8 @@ https://www.youtube.com/watch?v=8utpbbdj0LQ&t=13s
 ### 2.2 - Steps (for boot%, the most common %)
 Base Arch install steps (for BIOS):
 
-    1) Start VM
-    2) cfdisk /dev/sda
-    3) ‘n’ to create swap (512 mb)
-    4) ‘n’ to create root (rest)
-    5) mkfs.ext4 /dev/sda2
-    6) mkswap /dev/sda1
-    7) mount /dev/sda2 /mnt
-    8) swapon /dev/sda1
-    9) pacstrap -K /mnt base linux linux-firmware nano networkmanager grub
-    10) genfstab -U /mnt >> /mnt/etc/fstab
-    11) arch-chroot /mnt
-    12) nano /etc/locale.gen
-    13) uncomment en_US.UTF-8 and the other UTF-8
-    14) locale-gen
-    15) nano /etc/locale.conf
-    16) LANG=en_us.UTF-8
-    17) nano /etc/hostname
-    18) place hostname (e.g “dan”)
-    19) grub-install –target=i386-pc /dev/sda
-    20) grub-mkconfig -o /boot/grub/grub.cfg
-    21) reboot
-       Done
+1) Start the VM
+2) Open a partition editor, I think `cfdisk` is the easiest to use for this.
+    ```
+    cfdisk /dev/sda
+    ```
